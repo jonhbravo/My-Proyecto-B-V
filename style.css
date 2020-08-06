@@ -1,0 +1,64 @@
+/* reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+
+.titulo1 {
+    text-align: center;
+    background-color: maroon;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: mintcream;
+    margin: 0em;
+}
+
+
+strong {
+    color: tan;
+}
+
+.top-navigation {
+    background-color: #fff;
+    border-bottom: 1px solid #DDD;
+}
+
+main img {
+    width: 500px;
+    height: 500px;
+}
+
+nav>.contenedor {
+    height: 1.375rem;
+    background: maroon;
+}
+
+@media (min-width: 48rem) {
+    .content {
+        width: 46rem;
+    }
+}
+
+nav ul li {
+    color: tan;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: initial;
+}
